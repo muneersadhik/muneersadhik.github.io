@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loginform</title>
+    <link rel="stylesheet" href="bankwithdrawel.css">
+    <script src="transaction.js"></script>
+</head>
+<body>
+    <div class="abc">
+        <img src="atm.jpg" class="icon">
+        <h1>WITHDRAW</h1>
+        <form name="form" method="post" action="banknav.html">
+            <label for"acno">ACCOUNT NUMBER</label>
+            <input type="text" name="name"placeholder="Enter account number" id="wacno"><br>
+            <label for"pin">PIN</label>
+            <input type="text" name="pin" placeholder="Enter pin" id="wpin"><br>
+            <label for"amount">AMOUNT</label>
+            <input type="text" name="amount" placeholder="Enter Amount" id="wamt"><br>
+            <button type="submit" name="submit" onclick="Bank.withdraw()">WITHDRAW</button>  
+        
+ </form>
+</div> 
+</body>
+</html>

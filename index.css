@@ -1,0 +1,145 @@
+*{
+    margin: 0%;
+    padding:0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.home{
+    width: 1530px;
+    height:100vh;
+    background-image: url("home.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.home2{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul{
+     float:right;
+     list-style-type: none;
+    margin-top: -4%;
+}
+ul li{
+     display: inline-block;
+}
+ul li a{
+    margin-left: 8px;
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid rgb(31, 31, 110);
+}
+ul li a:hover{
+    background-color: rgb(66, 152, 184);
+    color: #ffffff;
+}
+.welcome{
+    width: 100%;
+    position:absolute;
+    top:55%;
+    text-align: center;
+    color: aliceblue;
+}
+button{
+    width: 150px;
+    padding: 10px 0;
+    text-align: center;
+    margin: 15px 5px;
+    border-radius: 25px;
+    font-weight: bold;
+    border:1px solid rgb(35, 54, 122);
+    background: transparent;
+    color: rgb(250, 245, 245);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.logo{
+    width: 90px;
+    height: 90px;
+    margin-top: -30px;
+    margin-left: -8%;
+}
+h1{
+    text-align: center;
+    font-size:46px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -50px;
+}
+.welcome a{
+    border: 1px solid #ffffff;
+    padding:10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-top: 18px;
+    display: inline-block;
+    color: black;
+    border-radius: 19px;
+
+}
+.welcome a:hover{
+    background-color: rgb(66, 152, 184);
+    color: #ffffff;
+}
+.welcome h1{
+  font-size: 84px;
+  color: transparent;
+  -webkit-text-stroke:1.4px rgb(60, 67, 108);
+  background: url("bg2.jpg");
+  -webkit-background-clip: text;
+  background-position: 0 0 ;
+  animation: back 80s linear infinite;
+ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: -10%;
+}
+.welcome p{
+    color: rgb(241, 241, 246);
+    font-size: 20px;
+    font-family:Cambria,Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 15px auto;
+    font-weight: 100;
+    line-height: 10px;
+}
+.welcome{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-5%);
+    text-align: center;
+  
+  }
+  @keyframes back{
+    100%{
+      background-position: 2000px 0;
+    }
+  }
+  @media screen and (max-width:480px) {
+    .home{
+        width: 100%;
+        height:100vh;
+    } 
+    .welcome h1{
+        font-size: 38px; 
+        margin-top: -100px; 
+  }
+  ul li a{
+    margin-left:12px;
+    font-size: 7px;
+  }
+  ul{
+    margin-top: -10%;
+    
+ }
+ .logo{
+    width: 50px;
+    height: 50px;
+}
+.welcome p{
+    font-size:15px ;
+  }
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loginform</title>
+    <link rel="stylesheet" href="bankbalance.css">
+    <script src="transaction.js"></script>
+</head>
+<body>
+    <div class="abc">
+        <img src="ic.jpeg" class="icon">
+        <h1>BANK BALANCE</h1>
+        <form name="form" method="post">
+            <label for="acno">ACCOUNT NUMBER</label>
+            <input oninput="Bank.viewbal()" type="text" name="acno" placeholder="Accountnumber" id="acno"><br>  
+            <h3 id="dname"></h3>
+            <h4 id="dbal"></h4>
+        </form>
+ </div> 
+</body>
+</html>

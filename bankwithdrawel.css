@@ -1,0 +1,111 @@
+body{
+    margin:0;
+    padding: 0;
+   background-image:url("witha.jpg");
+   
+   background-repeat:no-repeat;
+    background-size:cover;
+    
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.abc{
+    border: 1px solid white;
+    width:345px;
+    height:430px;
+    background:rgb(91, 128, 137) ;
+    color: rgb(233, 230, 230);
+    top:53%;
+    left:47%;
+    position:absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 50px 30px;
+    border-radius:10px;
+}
+.icon{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    position: absolute;
+    top:3%;
+    left:calc(5% - 5px);
+}
+.abc h1{
+    margin-bottom: 50px;
+    margin-left: 8%;
+    margin-top: -25px;
+    text-align:center;
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.abc label{
+    font-size: 23px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+     margin-top: 20px;
+}
+.abc input{
+    
+    width:90%;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.abc input[type="text"],input[type="password"]
+{
+border:0;
+background: none;
+display: block;
+margin: 7px auto;
+border: 1px solid rgb(234, 230, 230);
+width:95%;
+height: 20%;
+outline: none;
+color: rgb(244, 231, 231);
+border-radius: 11px;
+font-size: 18px;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.abc input[type="submit"]
+{
+    border: none;
+    outline:none;
+    height: 30px;
+    background: rgb(5, 5, 5);
+    color:rgb(247, 232, 232);
+    border-radius: 20px;
+    font-size: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.abc button{
+    width:58%;
+    margin-left:3%;
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+    background-color: rgb(236, 239, 241);
+    color: rgb(7, 8, 8);
+}
+.abc button[type="submit"]:hover
+{
+
+    background:rgb(122, 152, 159) ;
+    border-radius: 10px;
+ }
+ @media screen and (max-width:480px)
+ {
+    .abc{
+        width:290px;
+        height:420px;
+ }
+ body{
+    background-size: 150vh;
+
+ }
+ .abc h1{
+     font-size: 24px;
+ }
+}
+ 

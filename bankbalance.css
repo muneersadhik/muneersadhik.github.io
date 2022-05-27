@@ -1,0 +1,72 @@
+body{
+    margin:0;
+    padding: 0;
+   background-image:url("bala.jpg.jpg");
+   background-repeat: no-repeat;
+    background-size:cover;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.icon{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    position: absolute;
+    top:3%;
+    left:calc(4% - 4px);
+}
+h1{ 
+    margin-top: -44px;
+    margin-left: 8px;
+    margin-bottom: 37px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 34px;
+    color: rgb(237, 228, 228);
+    text-align: center;
+}
+.abc{
+    border: 1.2px solid white;
+    width:348px;
+    height:185px;
+    background:rgb(54, 103, 103) ;
+    color: rgb(255, 251, 251);
+    top:52%;
+    left:48%;
+    position:absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 50px 30px;
+    border-radius:10px;
+}
+.abc input[type="text"],input[type="password"]
+{
+border:0;
+background: none;
+display: block;
+margin: 5px auto;
+text-align: center;
+border: 1.2px solid white;
+width:100%;
+height: 30%;
+outline: none;
+color: rgb(245, 239, 239);
+border-radius: 10px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 17px;
+}
+@media screen and (max-width:480px)
+ {
+    .abc{
+        width:335px;
+        height:170px;
+ }
+ body{
+    background-size: 150vh;
+
+ }
+ .abc h1{
+     font-size: 27px;
+ }
+ }
+ 

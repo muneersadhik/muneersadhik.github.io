@@ -1,0 +1,121 @@
+body{
+    margin:0;
+    padding: 0;
+   background-image:url("de.jpg");
+   background-repeat: no-repeat;
+    background-size:cover;
+    
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.abc{
+    width:328px;
+    height:430px;
+    background:rgb(102, 122, 122) ;
+    color: rgb(255, 251, 251);
+    top:55%;
+    left:44%;
+    position:absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 50px 30px;
+    border-radius:10px;
+    border: 0.5px solid rgb(243, 239, 239);
+}
+.icon{
+    width:52px;
+    height:52px;
+    border-radius: 50%;
+    position: absolute;
+    top:3%;
+    left:calc(5% - 5px);
+}
+.abc h1{
+    margin-bottom: 32px;
+    margin-top: -20px;
+    text-align:center;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+
+}
+.abc label{
+
+    font-size: 23px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.abc input{
+    
+    width:90%;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.abc input[type="text"],input[type="password"]
+{
+border:0;
+background: none;
+display: block;
+margin: 5px auto;
+text-align: center;
+border: 1.2px solid white;
+width:105%;
+height: 20%;
+outline: none;
+color: rgb(245, 239, 239);
+border-radius: 10px;
+}
+.abc input[type="submit"]
+{
+    border: none;
+    outline:none;
+    height: 30px;
+    background:rgb(80, 81, 81) ;
+    color:rgb(247, 232, 232);
+    border-radius: 20px;
+    font-size: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.abc input[type="submit"]:hover
+{
+    
+    background:rgb(49, 90, 124) ;
+    border-radius: 10px;
+    }
+
+.abc a{
+    font-size: 16px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(8, 8, 8);
+    
+}
+.abc a:hover
+{
+    color:rgb(233, 234, 235);
+}
+.abc button{
+    width:90%;
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 12px;
+    background-color: rgb(38, 41, 44);
+    color: rgb(240, 241, 241);
+}
+.abc button[type="submit"]:hover
+{
+    
+    border-radius: 10px;
+ }
+ @media screen and (max-width:480px)
+ {
+    .abc{
+        width:290px;
+        height:395px;
+ }
+ body{
+    background-size: 150vh;
+
+ }
+}
+ 
